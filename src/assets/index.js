@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
-import logo2 from "./logo2.png"
-import logo3 from "./logo3.png"
+import logo2 from "./logo2.png";
+import logo3 from "./logo3.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -27,6 +27,11 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import carrotsuite from "./company/carrotsuite.png";
+import rbv from "./company/rbv.png";
+import Tens from "./company/TENS-logo-header.png";
+import zuri from "./company/zuri2.png";
+import payyng from "./company/payyng.jpg"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -37,6 +42,11 @@ export {
   logo2,
   logo3,
   backend,
+  carrotsuite,
+  rbv,
+  Tens,
+  zuri,
+  payyng,
   creator,
   mobile,
   web,
