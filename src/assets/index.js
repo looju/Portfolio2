@@ -8,6 +8,13 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import mealstogo from "./mealstogo.png";
+import moviehut from "./moviehut.png";
+import socialbay from "./socialbay.png";
+import timer from "./timer.png";
+import whatsapp from "./whatsapp.png";
+import zippy from "./zippy.png";
+import znews from "./znews.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -22,6 +29,15 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import c from "./tech/c.png";
+import bootstrap from "./tech/bootstrap.png";
+import cplus from "./tech/c++.png";
+import firebase from "./tech/firebase.png";
+import graphql from "./tech/graphql.png";
+import jest from "./tech/jest.jpg";
+import jquery from "./tech/jquery.png";
+import sqlite from "./tech/sqlite.jpg";
+import reactnative from "./tech/reactnative.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -31,7 +47,7 @@ import carrotsuite from "./company/carrotsuite.png";
 import rbv from "./company/rbv.png";
 import Tens from "./company/TENS-logo-header.png";
 import zuri from "./company/zuri2.png";
-import payyng from "./company/payyng.jpg"
+import payyng from "./company/payyng.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -40,6 +56,22 @@ import tripguide from "./tripguide.png";
 export {
   logo,
   logo2,
+  c,
+  bootstrap,
+  mealstogo,
+  moviehut,
+  socialbay,
+  timer,
+  whatsapp,
+  zippy,
+  znews,
+  cplus,
+  firebase,
+  graphql,
+  jest,
+  reactnative,
+  jquery,
+  sqlite,
   logo3,
   backend,
   carrotsuite,

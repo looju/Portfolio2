@@ -1,5 +1,4 @@
 import {
-  mobile,
   backend,
   creator,
   web,
@@ -10,15 +9,9 @@ import {
   reactjs,
   redux,
   tailwind,
-  nodejs,
-  mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  reactnative,
   carrent,
   jobit,
   tripguide,
@@ -28,6 +21,21 @@ import {
   Tens,
   zuri,
   payyng,
+  c,
+  bootstrap,
+  cplus,
+  firebase,
+  graphql,
+  jest,
+  jquery,
+  sqlite,
+  mealstogo,
+  moviehut,
+  socialbay,
+  timer,
+  whatsapp,
+  zippy,
+  znews,
 } from "../assets";
 
 export const navLinks = [
@@ -62,6 +70,50 @@ const services = [
 
 const technologies = [
   {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "React native",
+    icon: reactnative,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Redux Tk",
+    icon: redux,
+  },
+  {
+    name: "Firebase",
+    icon: firebase,
+  },
+  {
+    name: "Graphql",
+    icon: graphql,
+  },
+  {
+    name: "SqLite",
+    icon: sqlite,
+  },
+  {
+    name: "Jest",
+    icon: jest,
+  },
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
+  {
+    name: "Git",
+    icon: git,
+  },
+  {
     name: "HTML 5",
     icon: html,
   },
@@ -70,48 +122,29 @@ const technologies = [
     icon: css,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
+    name: "Tailwind ",
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
+    name: "Figma",
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Bootstrap",
+    icon: bootstrap,
+  },
+  {
+    name: "C++",
+    icon: cplus,
+  },
+  {
+    name: "C",
+    icon: c,
+  },
+
+  {
+    name: "Jquery",
+    icon: jquery,
   },
 ];
 
@@ -221,66 +254,263 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Payyng",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Cloned the social media application called Whatsapp. Integrated user display picture, 1v1 chat with stored contacts, media attachments such as pictures, 1v1 video call, and Ai chat.",
     tags: [
       {
-        name: "react",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "react native",
+        color: "text-sky-800",
+      },
+      {
+        name: "asyncstorage",
         color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "text-emerald-500",
+      },
+      {
+        name: "voximplant",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "ChatGPT API v2",
+        color: "text-lime-400",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: whatsapp,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Whatsapp + AI",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Cloned the social media application called Whatsapp. Integrated user display picture, 1v1 chat with stored contacts, media attachments such as pictures, 1v1 video call, and Ai chat.",
     tags: [
       {
-        name: "react",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "react native",
+        color: "text-sky-800",
+      },
+      {
+        name: "asyncstorage",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "firebase",
+        color: "text-emerald-500",
+      },
+      {
+        name: "voximplant",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "ChatGPT API v2",
+        color: "text-lime-400",
+      },
+      {
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: whatsapp,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Meals To Go",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Meals To Go is a cross-platform application that allows users to order their favourite meals from various restaurants as well as keep track of favourite listings. It also alllows for flexible and secure payment options",
     tags: [
       {
-        name: "nextjs",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "react native",
+        color: "text-sky-800",
+      },
+      {
+        name: "asyncstorage",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "firebase",
+        color: "text-emerald-500",
+      },
+      {
+        name: "google maps API",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Paystack API",
+        color: "text-lime-400",
+      },
+      {
+        name: "lottie",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: mealstogo,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Social Bay",
+    description:
+      "Created an application that allows user to match and like eact other's profile and then chat. Implemented an algorithm to detect matches",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react native",
+        color: "text-sky-800",
+      },
+      {
+        name: "asyncstorage",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "text-emerald-500",
+      },
+      {
+        name: "lottie",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: socialbay,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Movie Hut",
+    description:
+      "A cross-platform application where users can watch their favourite movie shows, Tvs, Cartoons, and can find out more info about a particular film",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react native",
+        color: "text-sky-800",
+      },
+      {
+        name: "asyncstorage",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "text-emerald-500",
+      },
+      {
+        name: "Youtube API",
+        color: "text-emerald-800",
+      },
+      {
+        name: "Simkl API",
+        color: "text-blue-400",
+      },
+      {
+        name: "lottie",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: moviehut,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Znews",
+    description:
+      "An application that allows users to catch up on the latest happenings in the world of sports, technology, business, entertainment and just about anything else",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react native",
+        color: "text-sky-800",
+      },
+      {
+        name: "asyncstorage",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Newws API",
+        color: "text-emerald-500",
+      },
+      {
+        name: "lottie",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: znews,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Zippy",
+    description:
+      "Built an application that allows companies to keep track of their customer orders and location, saving time and enabling increased customer service performance",
+    tags: [
+      {
+        name: "typescript",
+        color: "text-emerald-600",
+      },
+      {
+        name: "react native",
+        color: "text-sky-800",
+      },
+      {
+        name: "asyncstorage",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "text-emerald-500",
+      },
+      {
+        name: "Google Maps API",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Graphql",
+        color: "text-amber-400",
+      },
+      {
+        name: "lottie",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: zippy,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Focus Time",
+    description:
+      "This application was created to be able to manage and keep task of times, as well as organize schedules and tasks. Allows for deleting and rescheduling of tasks",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react native",
+        color: "text-sky-800",
+      },
+    ],
+    image: timer,
     source_code_link: "https://github.com/",
   },
 ];
