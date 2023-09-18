@@ -30,7 +30,7 @@ const Navbar = () => {
       className={`${
         styles.paddingX
       } w-full flex items-center py-5 fixed top-0 z-20 ${
-        scrolled ? "bg-rose-500" : "bg-rose-800"
+        scrolled ? "bg-rose-800" : "bg-rose-800"
       }`}
     >
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
@@ -43,9 +43,9 @@ const Navbar = () => {
           }}
         >
           <img src={logo3} alt='logo' className='w-9 h-9 object-contain cursor-auto' />
-          <p className='text-white text-[18px] font-bold font-serif hover:font-mono cursor-pointer flex cursor-auto '>
+          <p className='text-white text-[18px] font-bold font-mono  cursor-pointer flex cursor-auto '>
             Omofade Oluwaloju &nbsp;
-            <span className='sm:block hidden font-serif hover:font-mono cursor-auto'> | Personal Portfolio</span>
+            <span className='sm:block hidden font-mono cursor-auto'> | Personal Portfolio</span>
           </p>
         </Link>
 
