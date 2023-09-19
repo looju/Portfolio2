@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo10.svg";
 import logo2 from "./logo2.png";
 import logo3 from "./logo3.png";
 import backend from "./backend.png";
@@ -15,6 +15,7 @@ import timer from "./timer.png";
 import whatsapp from "./whatsapp.png";
 import zippy from "./zippy.png";
 import znews from "./znews.png";
+import payyng2 from "./payyng.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -61,6 +62,7 @@ export {
   mealstogo,
   moviehut,
   socialbay,
+  payyng2,
   timer,
   whatsapp,
   zippy,

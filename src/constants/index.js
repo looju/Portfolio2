@@ -12,15 +12,13 @@ import {
   git,
   figma,
   reactnative,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   rbv,
   carrotsuite,
   Tens,
   zuri,
   payyng,
+  payyng2,
   c,
   bootstrap,
   cplus,
@@ -113,26 +111,26 @@ const technologies = [
     name: "Git",
     icon: git,
   },
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "Tailwind ",
-    icon: tailwind,
-  },
-  {
-    name: "Figma",
-    icon: figma,
-  },
-  {
-    name: "Bootstrap",
-    icon: bootstrap,
-  },
+  // {
+  //   name: "HTML 5",
+  //   icon: html,
+  // },
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
+  // },
+  // {
+  //   name: "Tailwind ",
+  //   icon: tailwind,
+  // },
+  // {
+  //   name: "Figma",
+  //   icon: figma,
+  // },
+  // {
+  //   name: "Bootstrap",
+  //   icon: bootstrap,
+  // },
   {
     name: "C++",
     icon: cplus,
@@ -256,10 +254,10 @@ const projects = [
   {
     name: "Payyng",
     description:
-      "Cloned the social media application called Whatsapp. Integrated user display picture, 1v1 chat with stored contacts, media attachments such as pictures, 1v1 video call, and Ai chat.",
+      "Making bill payments, Data Subscription, Electricity, Utilities, Trade, Buy and sell PayPal, Wise Deposit seamless for Nigerians.",
     tags: [
       {
-        name: "javascript",
+        name: "typescript",
         color: "blue-text-gradient",
       },
       {
@@ -267,28 +265,29 @@ const projects = [
         color: "text-sky-800",
       },
       {
+        name: "redux",
+        color: "orange-text-gradient",
+      },
+      {
         name: "asyncstorage",
         color: "green-text-gradient",
       },
       {
-        name: "firebase",
+        name: "one-signal",
         color: "text-emerald-500",
       },
       {
-        name: "voximplant",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "ChatGPT API v2",
-        color: "text-lime-400",
-      },
-      {
         name: "tailwind",
+        color: "brown-text-gradient",
+      },
+      {
+        name: "lottie",
         color: "pink-text-gradient",
       },
+     
     ],
-    image: whatsapp,
-    source_code_link: "https://github.com/",
+    image: payyng2,
+    source_code_link: "https://play.google.com/store/apps/details?id=com.payyng.mobile",
   },
   {
     name: "Whatsapp + AI",
@@ -325,7 +324,7 @@ const projects = [
       },
     ],
     image: whatsapp,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/looju/whatsapp",
   },
   {
     name: "Meals To Go",
@@ -362,7 +361,7 @@ const projects = [
       },
     ],
     image: mealstogo,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/looju/MealsToGo",
   },
   {
     name: "Social Bay",
@@ -391,7 +390,7 @@ const projects = [
       },
     ],
     image: socialbay,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/looju/SocialBay",
   },
   {
     name: "Movie Hut",
@@ -428,7 +427,7 @@ const projects = [
       },
     ],
     image: moviehut,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/looju/MovieHut",
   },
   {
     name: "Znews",
@@ -457,7 +456,7 @@ const projects = [
       },
     ],
     image: znews,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/looju/Znews",
   },
   {
     name: "Zippy",
@@ -494,7 +493,7 @@ const projects = [
       },
     ],
     image: zippy,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/looju/Zippy",
   },
   {
     name: "Focus Time",
@@ -511,7 +510,7 @@ const projects = [
       },
     ],
     image: timer,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/looju/PomodoroTimer",
   },
 ];
 
