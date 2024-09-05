@@ -4,26 +4,24 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
-const Computers = ({ isMobile, width }) => {
-  const computer = useGLTF("./desktop_pc3/scene.gltf");
+const Computers = ({ isMobile }) => {
+  const computer = useGLTF("./desktop_pc2/scene.gltf");
 
   return (
     <mesh>
       <hemisphereLight intensity={0.15} groundColor="black" />
       <spotLight
-        position={[-50, 50, 10]}
+        position={[-20, 50, 90]}
         angle={0.12}
         penumbra={1}
-        intensity={1}
-        castShadow
-        shadow-mapSize={1024}
+        intensity={3.5}
       />
       <pointLight intensity={1} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 2.4 : 3}
-        position={isMobile ? [-23, -2.96, 0.4] : [-10.5, 8.5, 2]}
-        rotation={isMobile ? [0, -1.8, 0] : [0.2, -1.9, 0.15]}
+        scale={isMobile ? 0.3 : 0.75}
+        position={isMobile ? [0, -1.0, -1.5] : [0, -3.5, -2.5]}
+        rotation={[-0.01, -0.05, 0]}
       />
     </mesh>
   );
@@ -31,19 +29,6 @@ const Computers = ({ isMobile, width }) => {
 
 const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
-  const [width, setWidth] = useState(window.innerWidth);
-
-  console.log(width, "fdvf");
-
-  useEffect(() => {
-    const handleResize = () => setWidth(window.innerWidth);
-
-    window.addEventListener("resize", handleResize);
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
 
   useEffect(() => {
     // Add a listener for changes to the screen size
@@ -77,13 +62,12 @@ const ComputersCanvas = () => {
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
           enableZoom={false}
-          enablePan={false}
-          maxPolarAngle={isMobile ? Math.PI / 3.3: Math.PI / 3.3}
-          minPolarAngle={isMobile ? Math.PI / 3.3 : Math.PI / 3.3}
-          minAzimuthAngle={isMobile ?Math.PI / 2.4 : -Math.PI / 20}
-          maxAzimuthAngle={isMobile ? Math.PI / 2.1 : Math.PI / 2}
+          maxPolarAngle={Math.PI / 2}
+          minPolarAngle={Math.PI / 2}
+          minAzimuthAngle={-Math.PI / 15}
+          maxAzimuthAngle={Math.PI / -0.95}
         />
-        <Computers isMobile={isMobile} width={width} />
+        <Computers isMobile={isMobile} />
       </Suspense>
 
       <Preload all />

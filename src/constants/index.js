@@ -11,6 +11,7 @@ import {
   tailwind,
   git,
   figma,
+  electron,
   reactnative,
   threejs,
   rbv,
@@ -21,18 +22,26 @@ import {
   payyng2,
   c,
   bootstrap,
+  zira,
+  memoir,
+  modi,
   cplus,
   firebase,
   graphql,
   jest,
   jquery,
   sqlite,
+  web2,
+  computer,
+  phone,
   mealstogo,
   moviehut,
   socialbay,
+  readers,
   timer,
   whatsapp,
   zippy,
+  zustand,
   znews,
 } from "../assets";
 
@@ -54,15 +63,15 @@ export const navLinks = [
 const services = [
   {
     title: "Mobile Developer",
-    icon: backend,
+    icon: phone,
+  },
+  {
+    title: "Desktop Developer",
+    icon: computer,
   },
   {
     title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
+    icon: web2,
   },
 ];
 
@@ -72,12 +81,12 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
     name: "React native",
     icon: reactnative,
+  },
+  {
+    name: "Electron",
+    icon: electron,
   },
   {
     name: "React JS",
@@ -94,6 +103,10 @@ const technologies = [
   {
     name: "Graphql",
     icon: graphql,
+  },
+  {
+    name: "Zustand",
+    icon: zustand,
   },
   {
     name: "SqLite",
@@ -135,11 +148,6 @@ const technologies = [
     name: "C++",
     icon: cplus,
   },
-  {
-    name: "C",
-    icon: c,
-  },
-
   {
     name: "Jquery",
     icon: jquery,
@@ -221,6 +229,22 @@ const experiences = [
       "Maintained and constantly upgraded live application versions based on user feedbakcs",
     ],
   },
+  {
+    title: "Mobile Developer",
+    company_name: "ReadersPlug",
+    icon: readers,
+    iconBg: "#000",
+    date: "Dec 2023 - April 2024",
+    points: [
+      "Improved and upgraded the UI by implementing industry standard practices for animations to improve user experiences",
+      "Integrate offline features for users with limited network connectivity ",
+      "Improved rendering performances of UI components, optimizing for smoother displays and a faster refresh rate (aimed for a steady 60fps)",
+      "Integrated with a NodeJS and Express backend to institute login personalities, using email sign-in as the authentication process",
+      "I Enabled a password recovery system for users to recover their accounts",
+      "Utilize native modules like file system, camera, notifications",
+      "Implemented a text-to-speech feature for the dictionary module",
+    ],
+  },
 ];
 
 const testimonials = [
@@ -284,10 +308,10 @@ const projects = [
         name: "lottie",
         color: "pink-text-gradient",
       },
-     
     ],
     image: payyng2,
-    source_code_link: "https://play.google.com/store/apps/details?id=com.payyng.mobile",
+    source_code_link:
+      "https://play.google.com/store/apps/details?id=com.payyng.mobile",
   },
   {
     name: "Whatsapp + AI",
@@ -362,6 +386,80 @@ const projects = [
     ],
     image: mealstogo,
     source_code_link: "https://github.com/looju/MealsToGo",
+  },
+  {
+    name: "Zira",
+    description:
+      "Zira is a cross-platform mobile fintech application that allows users to deposit, withdraw money to their account. It offers the latest crypto prices as well as more detailed info about the coin such as a graph of historical prices as well as links to their official documentation. It also offers AI one-on-one chat",
+    tags: [
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react native",
+        color: "text-sky-800",
+      },
+      {
+        name: "asyncstorage",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tanstack query",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "zustand",
+        color: "yellow",
+      },
+      {
+        name: "firebase",
+        color: "text-emerald-500",
+      },
+      {
+        name: "gemini API",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "coinmarket API",
+        color: "text-lime-400",
+      },
+      {
+        name: "lottie",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: zira,
+    source_code_link: "https://github.com/looju/Zira",
+  },
+  {
+    name: "Memoir",
+    description:
+      "Memoir is a cross-platform desktop application for MacOs, windows and Linux that allows users to write,delete,edit and modify notes with ease",
+    tags: [
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "text-sky-800",
+      },
+      {
+        name: "electron",
+        color: "green-text-gradient",
+      },
+      {
+        name: "jotai",
+        color: "text-emerald-500",
+      },
+      {
+        name: "lodash",
+        color: "text-orange-700",
+      },
+    ],
+    image: memoir,
+    source_code_link: "https://github.com/looju/Memoir",
   },
   {
     name: "Social Bay",
@@ -457,6 +555,27 @@ const projects = [
     ],
     image: znews,
     source_code_link: "https://github.com/looju/Znews",
+  },
+  {
+    name: "Modi",
+    description:
+      "Modi is a cross-platform desktop application for MacOs, windows and Linux that allows users to edit and modify the dimensions of their images, existing or new, and produced a newly resized image",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "electron",
+        color: "text-sky-800",
+      },
+      {
+        name: "toastify-js",
+        color: "green-text-gradient",
+      },
+    ],
+    image: modi,
+    source_code_link: "https://github.com/looju/Modi",
   },
   {
     name: "Zippy",

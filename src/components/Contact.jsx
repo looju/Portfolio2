@@ -133,7 +133,7 @@ const Contact = () => {
               name="message"
               value={form.message}
               onChange={handleChange}
-              placeholder="What you want to say?"
+              placeholder="Send me a message and i'd respond as soon as I can"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline font-medium"
             />
           </label>

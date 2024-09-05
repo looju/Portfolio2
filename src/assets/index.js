@@ -2,13 +2,17 @@ import logo from "./logo10.svg";
 import logo2 from "./logo2.png";
 import logo3 from "./logo3.png";
 import backend from "./backend.png";
+import computer from "./computer.jpg";
+import web2 from "./web2.png";
+import phone from "./phone.jpg";
 import creator from "./creator.png";
-import mobile from "./mobile.png";
+import mobile from "./phone.jpg";
 import web from "./web.png";
 import github from "./github.png";
-import playstore from "./playstore.jpg"
+import playstore from "./playstore.jpg";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import me from "./me.svg";
 import mealstogo from "./mealstogo.png";
 import moviehut from "./moviehut.png";
 import socialbay from "./socialbay.png";
@@ -16,9 +20,14 @@ import timer from "./timer.png";
 import whatsapp from "./whatsapp.png";
 import zippy from "./zippy.png";
 import znews from "./znews.png";
-import payyng2 from "./payyng.png"
+import payyng2 from "./payyng.png";
+import zira from "./zira.png";
+import modi from "./modi.png";
+import memoir from "./memoir.png";
+import zustand from "./zustand.jpg"
 
 import css from "./tech/css.png";
+import electron from "./tech/electron.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -47,6 +56,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import carrotsuite from "./company/carrotsuite.png";
 import rbv from "./company/rbv.png";
+import readers from "./company/readers.png";
 import Tens from "./company/TENS-logo-header.png";
 import zuri from "./company/zuri2.png";
 import payyng from "./company/payyng.jpg";
@@ -76,6 +86,8 @@ export {
   jquery,
   sqlite,
   logo3,
+  electron,
+  readers,
   backend,
   carrotsuite,
   rbv,
@@ -106,7 +118,15 @@ export {
   shopify,
   starbucks,
   tesla,
+  zustand,
   carrent,
   jobit,
   tripguide,
+  zira,
+  modi,
+  memoir,
+  web2,
+  computer,
+  phone,
+  me,
 };
