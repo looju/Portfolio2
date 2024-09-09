@@ -36,18 +36,19 @@ const Contact = () => {
       alert("Oops. Invalid email address. Please try again");
       setLoading(false);
       return;
-    }
-    else if (form.name == null) {
+    } else if (form.name == null) {
       alert("Please fill in your name");
       setLoading(false);
       return;
-    }
-    else if (form.message == null) {
+    } else if (form.message == null) {
       alert("Please fill in your message");
       setLoading(false);
       return;
-    }
-   else if (form.message == null && form.email == null && form.name == null) {
+    } else if (
+      form.message == null &&
+      form.email == null &&
+      form.name == null
+    ) {
       alert("Please complete the form. Thanks");
       setLoading(false);
       return;

@@ -23,11 +23,11 @@ const App = () => {
         <About />
         <Experience />
         <Tech />
-        <Works />
-        {/* <Feedbacks /> */}
+        <div className="relative z-5">
+          <Works />
+        </div>
         <div className="relative z-0">
           <Contact />
-          {/* <StarsCanvas /> */}
         </div>
       </div>
     </BrowserRouter>
